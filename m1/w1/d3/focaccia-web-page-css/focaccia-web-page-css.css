@@ -1,0 +1,39 @@
+/* Page centering */
+main{
+    width: 50%; margin-right: auto; margin-left: auto;
+}
+header {
+    text-align: center;
+}
+.text-square {
+    width: 800px; /* Adjust as needed */
+    height: 10px; /* Adjust as needed */
+    background-color: #f7ff80; /* Change to desired background color */
+    color: #ffffff; /* Set text color to contrast with the background */
+    padding: 40px; /* Adjust as needed to add space inside the square */
+    width: 50%; margin-right: auto; margin-left: auto;
+    text-align: center;
+    border-top: 1px solid; color: orange;
+}
+.colored-thanksgiving{
+    color: darkgreen;
+}
+.video-container {
+    position: relative;
+    width: 80%;
+  }
+  
+  video {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 1%;
+  }
+  
+  /* Optional: Style the poster image */
+  video::poster {
+    object-fit: cover;
+  }
+  footer{
+    text-align: center;
+  }
