@@ -184,9 +184,10 @@ let crewMass = 0;
 while (index < starWarsCharacters.length) {
   const charactersNames = starWarsCharacters[index];
   crewMass = crewMass + parseInt(charactersNames.mass);
+  index++
 }
 
-crossOriginIsolated.log(crewMass);
+console.log(crewMass);
 
 /* ESERCIZIO 7
   Crea uno if/else statement per rivelare la tipologia di carico, utilizzando la massa totale, di un'ipotetica astronave contenente i personaggi dell'array "starWarsCharacters".
@@ -229,6 +230,7 @@ for (let i = 0; i < starWarsCharacters.length; i++) {
     character.gender = "robot";
   }
 }
+console.log(starWarsCharacters);
 
 /* --EXTRA-- ESERCIZIO 9
   Utilizzando gli elementi presenti nell'array "femaleCharacters" rimuovi dall'array "charactersNames" le stringhe corrispondenti a personaggi con lo stesso nome.
