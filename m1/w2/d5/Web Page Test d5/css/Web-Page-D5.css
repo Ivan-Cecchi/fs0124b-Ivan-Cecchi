@@ -1,0 +1,123 @@
+.central-text {
+  text-align: center;
+  width: 100%;
+}
+body {
+  background-color: rgb(215, 209, 209);
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 55px;
+}
+
+#structure-1 {
+  margin: 0 20px 0 20px;
+  background-color: rgb(238, 232, 232);
+}
+
+nav {
+  background-color: rgb(12, 47, 75);
+  color: #eaeded;
+  padding: 25px 0 25px 0;
+  margin-bottom: 50px;
+}
+ul li {
+  display: inline;
+  letter-spacing: 0.3em;
+}
+ul li a {
+  padding-left: 50px;
+}
+
+header {
+  background-color: rgb(14, 40, 62);
+}
+header img {
+  background-color: rgb(14, 40, 62);
+  width: 20%;
+}
+
+main {
+  background-color: rgb(215, 209, 209);
+}
+.white {
+  margin-top: 25px;
+  background-color: rgb(255, 255, 255);
+}
+
+.gift-cards {
+  color: #eaeded;
+  background-color: #f56600;
+  padding: 25px 0 25px 0;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.gift-guides {
+  background-image: url("../assets/images/bg-image.png");
+  background-repeat: repeat;
+  color: white;
+  padding: 80px 0 80px 0;
+}
+
+h3 {
+  font-size: 25px;
+  padding-top: 20px;
+}
+
+.image-section1 {
+  margin-left: 25px;
+  margin-right: 500px;
+}
+.Pictures-section1 h3 {
+  margin-bottom: 25px;
+}
+.Pictures-section2 {
+  margin-left: 25px;
+  margin-right: 500px;
+}
+p {
+  margin-bottom: 20px;
+}
+
+.pictures-section {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.pictures-section img {
+  width: 25%;
+  height: 300px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.h3 {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+a {
+  text-decoration: none;
+}
+
+.back {
+  background-color: rgb(15, 58, 93);
+  text-align: center;
+  padding: 10px 0 10px 0;
+}
+
+.back a {
+  color: white;
+}
+.footer {
+  padding: 20px 0 20px 0;
+  text-align: center;
+  background-color: rgb(14, 40, 62);
+}
+.footer img {
+  width: 15%;
+}
