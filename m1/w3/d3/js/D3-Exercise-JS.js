@@ -4,12 +4,12 @@ function addTask() {
     const taskText = taskInput.value.trim();
   
     if (taskText !== "") {
-      // Create the task element
+      //Task element creation
       const taskEl = document.createElement('div');
       taskEl.classList.add('task');
       taskEl.innerText = taskText;
   
-      // Create and add the delete button
+      // Create the delete button
       const deleteBtn = document.createElement('button');
       deleteBtn.innerText = 'Delete';
       deleteBtn.onclick = function() {
@@ -20,7 +20,7 @@ function addTask() {
       // Add the task to the list
       tasksContainer.appendChild(taskEl);
   
-      // Clear the input
+      // Clear input
       taskInput.value = "";
     } else {
       alert("Please enter a task name.");
