@@ -1,3 +1,5 @@
+//Main board funcion
+
 const generateMainBoard = function () {
   const board = document.querySelector('.main-board')
   for (let i = 0; i < 90; i++) {
