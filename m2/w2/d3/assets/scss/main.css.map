@@ -1,0 +1,14 @@
+{
+  "version": 3,
+  "sources": [
+    "partials/_reset.scss",
+    "main.css",
+    "partials/_color.scss",
+    "partials/_spaziature.scss",
+    "partials/_animation.scss",
+    "partials/_mixins.scss"
+  ],
+  "names": [],
+  "mappings": "AAAA;;;;;;;;;;;;EAYE,SAAA;EACA,UAAA;EACA,sBAAA;ACCF;;ACTA;EACI,yBAPe;ADmBnB;;ACVA;EACI,yBATY;EAUZ,cAPS;ADoBb;;ACXA;EACI,cAVS;ADwBb;;ACZA;EACI,yBAdY;EAeZ,cAdS;AD6Bb;;ACbA;EACI,yBArBe;EAsBf,cAlBS;ADkCb;;AEtCA;EACI,SAAA;EACA,aAAA;EACA,YAAA;EACA,mBAAA;AFyCJ;;AEvCA;EACI,aAAA;AF0CJ;;AExCA;EACI,aAAA;AF2CJ;;AEzCA;EACI,aAAA;AF4CJ;;AGzDA;EACI,yBFCc;EEAd,gBAAA;AH4DJ;;AI7DA;EACI,aAAA;AJgEJ;;AI9DA;EACI,uBAAA;AJiEJ;;AI/DA;EACI,6BAAA;AJkEJ;;AIhEA;EACI,sBAAA;AJmEJ;;AIjEA;EACI,mBAAA;AJoEJ;;AIlEA;EACI,mBAAA;AJqEJ;;AInEA;EACI,gBAAA;AJsEJ;AIrEI;EACI,qBAAA;AJuER;;AIpEA;EACI,kBAAA;AJuEJ",
+  "file": "main.css"
+}

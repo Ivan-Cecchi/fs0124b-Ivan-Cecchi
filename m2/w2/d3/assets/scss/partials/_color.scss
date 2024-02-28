@@ -1,0 +1,24 @@
+$backgroung-color: #640fc5;
+$primary-color: #0e6cff;
+$secondary-color: #ff8700;
+$ternary-color: #4caf50;
+$text-color: #f4f4f4;
+
+.nav-bar{
+    background-color: $backgroung-color;
+}
+.headline{
+    background-color: $primary-color;
+    color: $text-color;
+}
+.menu ul a{
+    color: $text-color
+}
+button {
+    background-color: $ternary-color;
+    color: $text-color;
+}
+footer {
+    background-color: $backgroung-color;
+    color: $text-color;
+}

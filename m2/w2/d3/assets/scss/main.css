@@ -1,0 +1,98 @@
+body,
+div,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+form,
+button,
+input,
+textarea {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-bar {
+  background-color: #640fc5;
+}
+
+.headline {
+  background-color: #0e6cff;
+  color: #f4f4f4;
+}
+
+.menu ul a {
+  color: #f4f4f4;
+}
+
+button {
+  background-color: #4caf50;
+  color: #f4f4f4;
+}
+
+footer {
+  background-color: #640fc5;
+  color: #f4f4f4;
+}
+
+button {
+  border: 0;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.logo {
+  padding: 10px;
+}
+
+.menu ul {
+  padding: 10px;
+}
+
+footer {
+  padding: 10px;
+}
+
+button:hover {
+  background-color: #ff8700;
+  transition: 0.5s;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.flex-direction-row {
+  flex-direction: row;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.menu ul {
+  list-style: none;
+}
+.menu ul a {
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+} /*# sourceMappingURL=main.css.map */
