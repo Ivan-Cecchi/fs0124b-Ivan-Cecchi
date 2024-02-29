@@ -1,0 +1,59 @@
+// qui dentro è dove applicherò le mie personalizzazioni
+
+// da dove parto? per prima cosa è necessario IMPORTARE qui dentro i sorgenti di bootstrap
+// una volta fatto, potrò cambiare i colori, le spaziature, i breakpoints etc.
+// infine, il passo finale sarà RICOMPILARE questi sorgenti "manipolati" in modo da ottenere un
+// bootstrap.css come lo voglio io!
+
+// proviamo a cambiare i colori di default:
+
+@import 'scss/functions'; // l'import di functions è necessario per far funzionare "variables"
+@import 'scss/variables'; // qui sono definite le mappe colore originali
+
+// ora personalizzo
+
+// $new-primary: rgb(0, 255, 0);
+// $new-secondary: rgb(0, 0, 0);
+// $new-warning: orange;
+
+// il nostro scopo qual è? andare a sovrascrivere la mappa "$theme-colors" dentro "_variables"
+
+// creo la mia nuova mappa colori
+$new-theme-colors: (
+  'primary': $new-primary,
+  'secondary': $new-secondary,
+  'warning': $new-warning,
+  'giallo': yellow,
+  'antonio': $teal-700,
+  'purple': $purple-700
+);
+
+// vado a fare un MERGE la mia mappa colori custom con la mappa colori "$theme-colors" di bootstrap
+
+$theme-colors: map-merge($theme-colors, $new-theme-colors);
+// il merge mette in salvo nella mappa originale i colori che NON sono andato a ri-definire (es. danger, dark etc.)
+
+// personalizziamo gli spacers in bootstrap
+// $new-spacers: (
+//   0: 0,
+//   1: $spacer * 1,
+//   2: $spacer * 2,
+//   3: $spacer * 3,
+//   4: $spacer * 4,
+//   5: $spacer * 5,
+//   6: $spacer * 6,
+// );
+
+// $spacers: map-merge($spacers, $new-spacers);
+@import 'scss/bootstrap.scss';
+// qui importo tutti i partials nuovamente per creare una versione completa di bootstrap, personalizzata
+
+// prova: importiamo tutti i sorgenti di bootstrap senza alterarli
+// @import 'scss/bootstrap.scss';
+// questo compilerà bootstrap nella sua versione "classica", "vanilla"
+
+// come mai importando alla fine nuovamente TUTTO bootstrap.scss i colori non si sono sovrascritti nuovamente
+// con gli originali? Perchè QUASI TUTTE le variabili in bootstrap sono state create con un flag !default
+
+// il flag !default serve a creare una variabile ma solamente nel caso in cui quella variabile NON sia stata già
+// definita
