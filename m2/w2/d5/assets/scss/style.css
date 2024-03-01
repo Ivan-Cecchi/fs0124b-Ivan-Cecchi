@@ -1,0 +1,9 @@
+.btn-color {
+  background: black;
+  border: lightgray;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.fs-7 {
+  font-size: 15px;
+}
